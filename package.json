@@ -1,0 +1,23 @@
+{
+  "name": "k-csv",
+  "version": "1.0.0",
+  "description": "Um pequeno pacote para operar arquivos CSV",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "node dist/index.js"
+  },
+  "keywords": [
+    "csv",
+    "stream",
+    "data-science"
+  ],
+  "author": "Wagner J. Kramer Vieira",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2"
+  }
+}
